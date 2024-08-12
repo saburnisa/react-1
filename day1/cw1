@@ -1,0 +1,16 @@
+function alertmsg()
+{
+    alert("Message from Javascript alert!!");
+    console.log("Message to Java developer");
+}
+function App1()
+{
+    return(
+        <div>
+            <h1>Let us see the output of Javascript</h1>
+            <button onClick={alertmsg}>Click</button>
+
+        </div>
+    )
+}
+export default App1;
